@@ -1,25 +1,16 @@
 function onPhotoDataSuccess() {
 	//
 }
-function goniometrieZichtbaar() {
-$('.goniometrie').css('display', 'block');
-}
 
-function goniometrieOnZichtbaar() {
-$('.goniometrie').css('display', 'none');
-}
-function gasendruk () {
-$('.gasendruk').css('display', 'block');
-}
-function gasendrukonzichtbaar() 
-{ $('.gasendruk').css('display', 'none');
-}
-function kern() 
-{ $('.kern').css('display', 'block');
-}
-function kernonzichtbaar()
-{ $('.kern').css('display', 'none');
-}
+function collapseAd(e) {
+	Enabler.collapse();
+	 $('#goniometrie').css('display','block');
+	}
+	
+	document.getElementById('collapse-button').addEventListener('click', collapseAd, false)
+	;
+
+
 
 function onFail() {
 	//
