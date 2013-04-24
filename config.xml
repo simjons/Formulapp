@@ -4,7 +4,7 @@
         id        = "<!-- id van de App (com.naamontwikkelaar.naamapp) -->"
         version   = "1.0.0">
 
-    <name>Naam van de App</name>
+    <name>FormulApp</name>
 
     <description>
         <!-- Omschrijving van de App -->
@@ -19,5 +19,7 @@
     
 	<!-- De app fullscreen maken. -->
     <preference name="fullscreen" value="true" />
+	
+	<icon src="icon.png" gap:platform="ios" width="72" height="72" />
 
 </widget>
